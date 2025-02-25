@@ -1,0 +1,10 @@
+variable "resource_group_name" { type = string }
+variable "location" { type = string }
+variable "prefix" { type = string }
+variable "kubernetes_version" { type = string }
+variable "node_count" { type = number }
+variable "node_vm_size" { type = string }
+variable "subnet_id" { type = string }
+variable "service_cidr" { type = string }
+variable "dns_service_ip" { type = string }
+variable "aks_nsg_id" { type = string }
